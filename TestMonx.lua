@@ -62,7 +62,7 @@ local function CreateGUI(guiName)
     local function createButton(buttonName, buttonFunction)
         local button = Instance.new("TextButton")
         button.Size = UDim2.new(0, 180, 0, 30)
-        button.Position = UDim2.new(0.5,0,0,190)
+        button.Position = UDim2.new(0.5,0,0,300)
         button.AnchorPoint = Vector2.new(0.5, 0.5)
         button.Text = buttonName
         button.Parent = ENB
