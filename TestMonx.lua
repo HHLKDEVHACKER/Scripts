@@ -2,6 +2,7 @@ local function CreateGUI(guiName)
     local gui = Instance.new("ScreenGui")
     gui.Name = "gdg"
     local ENB = Instance.new("ScrollingFrame")
+    local close = Instance.new("ImageButton")
     gui.Parent = game.CoreGui
     local Frame = Instance.new("Frame")
     Frame.Size = UDim2.new(0, 190, 0, 350)
@@ -58,6 +59,19 @@ local function CreateGUI(guiName)
     Top.Position = UDim2.new(0, 0, 0, -2)
     ENB.ScrollBarImageTransparency = 1
     ENB.ScrollingDirection = Enum.ScrollingDirection.Y
+
+close.Name = "close"
+close.Parent = Top
+close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+close.BackgroundTransparency = 1.000
+close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+close.BorderSizePixel = 0
+close.Position = UDim2.new(0.952440381, 0, 0.0909090936, 0)
+close.Size = UDim2.new(0.0410509035, 0, 0.727272749, 0)
+close.Image = "rbxassetid://15115278951"
+close.ScaleType = Enum.ScaleType.Fit
+    
+    
 
     local buttonCount = 0
 
