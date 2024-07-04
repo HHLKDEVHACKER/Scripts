@@ -67,7 +67,7 @@ close.BackgroundTransparency = 1.000
 close.BorderColor3 = Color3.fromRGB(0, 0, 0)
 close.BorderSizePixel = 0
 close.Position = UDim2.new(0, -10, 0.0909090936, 0)
-close.Size = UDim2.new(0.0410509035, 0, 0.727272749, 0)
+close.Size = UDim2.new(0, 40,0, 40)
 close.Image = "rbxassetid://15115278951"
 close.ScaleType = Enum.ScaleType.Fit
     
