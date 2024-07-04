@@ -59,17 +59,21 @@ local function CreateGUI(guiName)
     ENB.ScrollBarImageTransparency = 1
     ENB.ScrollingDirection = Enum.ScrollingDirection.Y
 
+    local buttonCount = 0
+
     local function createButton(buttonName, buttonFunction)
         local button = Instance.new("TextButton")
         button.Size = UDim2.new(0, 180, 0, 30)
-        button.Position = UDim2.new(0.5,0,0,300)
-        button.AnchorPoint = Vector2.new(0.5, 0.5)
+        button.Position = UDim2.new(0.5, 0, 0, buttonCount * 40 + 10)  -- 30 (height) + 10 (spacing)
+        button.AnchorPoint = Vector2.new(0.5, 0)
         button.Text = buttonName
         button.Parent = ENB
         button.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
         button.TextColor3 = Color3.fromRGB(255, 255, 255)
         button.TextSize = 16
         button.MouseButton1Click:Connect(buttonFunction)
+        
+        buttonCount = buttonCount + 1
     end
 
     return {createButton = createButton}
