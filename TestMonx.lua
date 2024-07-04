@@ -19,7 +19,7 @@ local function CreateGUI(guiName)
     Frame.Parent = gui
     ENB.Name = "ENB"
     ENB.Parent = Frame
-    ENB.BackgroundTransparency = 0
+    ENB.BackgroundTransparency = 1
     Frame.BorderColor3 = Color3.fromRGB(40, 40, 40)
     Top.Size = UDim2.new(0, 190, 0, 30)
     ENB.BorderSizePixel = 0
