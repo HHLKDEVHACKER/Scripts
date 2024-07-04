@@ -1,7 +1,4 @@
-
-local function CreateGUI()
-    
-    local guiname = "ytpe Name gui"
+local function CreateGUI(guiName)
     local gui = Instance.new("ScreenGui")
     gui.Name = "gdg"
     local ENB = Instance.new("ScrollingFrame")
@@ -33,7 +30,7 @@ local function CreateGUI()
     TextJanHub.Archivable = true
     TextJanHub.ClipsDescendants = false
     TextJanHub.Font = Enum.Font.SourceSans
-    TextJanHub.Text = guiname
+    TextJanHub.Text = guiName
     TextJanHub.TextColor3 = selectedColor
     TextJanHub.TextSize = 18
     Top.Name = "Top"
