@@ -70,7 +70,7 @@ local function CreateGUI(guiName)
         button.Parent = ENB
         button.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
         button.TextColor3 = Color3.fromRGB(255, 255, 255)
-        button.TextSize = 16
+        button.TextSize = 12
         button.MouseButton1Click:Connect(buttonFunction)
         
         buttonCount = buttonCount + 1
