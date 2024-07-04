@@ -25,7 +25,7 @@ local function CreateGUI(guiName)
     ENB.BorderSizePixel = 0
     Top.Parent = Frame
     Top.BackgroundTransparency = 1
-    ENB.BorderColor3 = Color3.fromRGB(255, 255, 255)
+    ENB.BorderColor3 = Color3.fromRGB(30, 30, 30)
     TextJanHub.Name = "TextJanHub"
     TextJanHub.Archivable = true
     TextJanHub.ClipsDescendants = false
@@ -34,7 +34,7 @@ local function CreateGUI(guiName)
     TextJanHub.TextColor3 = selectedColor
     TextJanHub.TextSize = 18
     Top.Name = "Top"
-    ENB.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    ENB.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
     TextJanHub.Parent = Top
     TextJanHub.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
     TextJanHub.BackgroundTransparency = 1
