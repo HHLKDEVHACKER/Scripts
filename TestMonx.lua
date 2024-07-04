@@ -70,7 +70,10 @@ close.Position = UDim2.new(0,150,0, 0)
 close.Size = UDim2.new(0, 25,0, 25)
 close.Image = "rbxassetid://15115278951"
 close.ScaleType = Enum.ScaleType.Fit
-    
+
+    close.MouseButton1Click:Connect(function()
+        Frame:Destroy()
+    end)
     
 
     local buttonCount = 0
