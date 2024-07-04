@@ -61,7 +61,7 @@ local function CreateGUI(guiName)
     ENB.ScrollingDirection = Enum.ScrollingDirection.Y
 
 close.Name = "close"
-close.Parent = Top
+close.Parent = Frame
 close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 close.BackgroundTransparency = 1.000
 close.BorderColor3 = Color3.fromRGB(0, 0, 0)
