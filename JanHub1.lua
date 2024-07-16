@@ -1,1 +1,1 @@
-local a=game:GetService("MarketplaceService")local b=1575090225;local c;local d,e=pcall(function()c=a:GetProductInfo(b)end)if d and c and c.AssetTypeId==9 then loadstring(game:HttpGet("https://raw.githubusercontent.com/HHLKDEVHACKER/Scripts/main/JanHub.lua"))()else local f="الماب غير مدعوم"local function g(h)if h then h:Kick(f)end end;local i=game.Players.LocalPlayer;g(i)end
+
